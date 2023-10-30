@@ -20,7 +20,7 @@ still assumes the `.tw` file extension for use with
 
 ## Installation
 
-Assuming vim8, just run `git clone … ~/.vim/pack/twsc/start/twine-sugarcube/`.
+Assuming vim8, just run `git clone https://github.com/creshal/twine-sugarcube.vim.git ~/.vim/pack/twsc/start/twine-sugarcube/`.
 
 Other plugin managers are not tested, but should work, probably. Alternatively,
 copy the `syntax` and `ftdetect` directories to `~/.vim/`.
