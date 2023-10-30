@@ -2,7 +2,8 @@
 
 ![](doc/ex.jpg)
 
-A relatively simple syntax highlighter for vim, based on [thricedotted's gist](https://gist.github.com/thricedotted/6590696).
+A relatively simple syntax highlighter for vim, based on
+[thricedotted's gist](https://gist.github.com/thricedotted/6590696).
 
 Improvements/Fixes:
 
@@ -14,8 +15,12 @@ supported (still incomplete)
 was removed
 
 To avoid name conflicts, the syntax is now named `twsc` instead of `twee`; it
-still assumes the `.tw` file extension.
+still assumes the `.tw` file extension for use with
+[tweego](https://github.com/tmedwards/tweego).
 
 ## Installation
 
-Assuming vim8: `git clone … ~/.vim/pack/twsc/start/twine-sugarcube/`
+Assuming vim8, just run `git clone … ~/.vim/pack/twsc/start/twine-sugarcube/`.
+
+Other plugin managers are not tested, but should work, probably. Alternatively,
+copy the `syntax` and `ftdetect` directories to `~/.vim/`.
